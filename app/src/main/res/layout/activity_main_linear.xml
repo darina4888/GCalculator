@@ -8,14 +8,18 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp">
 
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editTextInput"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:inputType="number"
         android:textSize="20sp"
-        android:hint="@string/input_number"
-        android:autofillHints="" />
+        android:background="@drawable/edit_text_background"
+        />
 
      <LinearLayout
         android:layout_width="match_parent"
@@ -28,7 +32,8 @@
             android:layout_weight="1"
             android:layout_marginRight="@dimen/margin_right"
             android:text="@string/_7"
-            android:textSize="@dimen/button_text" />
+            android:textSize="@dimen/button_text"
+            android:onClick="buttonOnClick"/>
         <Button
             android:id="@+id/button_8"
             android:layout_width="0dp"
@@ -36,7 +41,8 @@
             android:layout_weight="1"
             android:layout_marginRight="@dimen/margin_right"
             android:text="@string/_8"
-            android:textSize="@dimen/button_text" />
+            android:textSize="@dimen/button_text"
+            android:onClick="buttonOnClick"/>
         <Button
             android:id="@+id/button_9"
             android:layout_width="0dp"
@@ -44,14 +50,16 @@
             android:layout_marginRight="@dimen/margin_right"
             android:layout_weight="1"
             android:text="@string/_9"
-            android:textSize="@dimen/button_text" />
+            android:textSize="@dimen/button_text"
+            android:onClick="buttonOnClick"/>
         <Button
             android:id="@+id/button_minus"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/minus"
-            android:textSize="@dimen/button_text" />
+            android:textSize="@dimen/button_text"
+            android:onClick="buttonOnClick"/>
     </LinearLayout>
 
     <LinearLayout
@@ -73,7 +81,8 @@
             android:layout_weight="1"
             android:layout_marginRight="@dimen/margin_right"
             android:text="@string/_5"
-            android:textSize="@dimen/button_text" />
+            android:textSize="@dimen/button_text"
+            android:onClick="buttonOnClick"/>
         <Button
             android:id="@+id/button_6"
             android:layout_width="0dp"
@@ -81,14 +90,16 @@
             android:layout_weight="1"
             android:layout_marginRight="@dimen/margin_right"
             android:text="@string/_6"
-            android:textSize="@dimen/button_text" />
+            android:textSize="@dimen/button_text"
+            android:onClick="buttonOnClick"/>
         <Button
             android:id="@+id/button_multiplication"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/multiplication"
-            android:textSize="@dimen/button_text" />
+            android:textSize="@dimen/button_text"
+            android:onClick="buttonOnClick"/>
     </LinearLayout>
 
     <LinearLayout
@@ -102,7 +113,8 @@
             android:layout_weight="1"
             android:layout_marginRight="@dimen/margin_right"
             android:text="@string/_1"
-            android:textSize="@dimen/button_text" />
+            android:textSize="@dimen/button_text"
+            android:onClick="buttonOnClick"/>
         <Button
             android:id="@+id/button_2"
             android:layout_width="0dp"
@@ -110,7 +122,8 @@
             android:layout_weight="1"
             android:layout_marginRight="@dimen/margin_right"
             android:text="@string/_2"
-            android:textSize="@dimen/button_text" />
+            android:textSize="@dimen/button_text"
+            android:onClick="buttonOnClick"/>
         <Button
             android:id="@+id/button_3"
             android:layout_width="0dp"
@@ -118,14 +131,16 @@
             android:layout_weight="1"
             android:layout_marginRight="@dimen/margin_right"
             android:text="@string/_3"
-            android:textSize="@dimen/button_text" />
+            android:textSize="@dimen/button_text"
+            android:onClick="buttonOnClick"/>
         <Button
             android:id="@+id/button_division"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/division"
-            android:textSize="@dimen/button_text" />
+            android:textSize="@dimen/button_text"
+            android:onClick="buttonOnClick"/>
     </LinearLayout>
 
     <LinearLayout
@@ -140,7 +155,8 @@
             android:layout_weight="1"
             android:layout_marginRight="@dimen/margin_right"
             android:text="@string/_point"
-            android:textSize="@dimen/button_text"/>
+            android:textSize="@dimen/button_text"
+            android:onClick="buttonOnClick"/>
         <Button
             android:id="@+id/button_0"
             android:layout_width="0dp"
@@ -148,7 +164,8 @@
             android:layout_weight="1"
             android:layout_marginRight="@dimen/margin_right"
             android:text="@string/_0"
-            android:textSize="@dimen/button_text" />
+            android:textSize="@dimen/button_text"
+            android:onClick="buttonOnClick"/>
         <Button
             android:id="@+id/button_equally"
             android:layout_width="0dp"
@@ -156,14 +173,16 @@
             android:layout_weight="1"
             android:layout_marginRight="@dimen/margin_right"
             android:text="@string/equally"
-            android:textSize="@dimen/button_text" />
+            android:textSize="@dimen/button_text"
+            android:onClick="buttonOnClick"/>
         <Button
             android:id="@+id/button_plus"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/plus"
-            android:textSize="@dimen/button_text" />
+            android:textSize="@dimen/button_text"
+            android:onClick="buttonOnClick"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
