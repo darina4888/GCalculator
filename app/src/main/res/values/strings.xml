@@ -18,4 +18,5 @@
     <string name="division">/</string>
     <string name="multiplication">*</string>
     <string name="equally">=</string>
+    <string name="result_template">%s%s</string>
 </resources>

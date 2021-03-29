@@ -10,16 +10,19 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
     
     private TextView textView;
     private EditText editText;
     private final String editTextKey = "editTextKey";
+    private ArrayList<String> inputArr;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        inputArr = new ArrayList<String>();
         setContentView(R.layout.activity_main);
         editText = findViewById(R.id.editTextInput);
 
@@ -33,7 +36,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void buttonOnClick(View v) {
         Button b = (Button)v;
-        editText.setText(editText.getText() + b.getText().toString());
+        editText.setText(getResources().getString(R.string.result_template, editText.getText(), b.getText().toString()));
+        inputArr.add(b.getText().toString());
     }
 
     @Override
