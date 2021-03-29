@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.GCalculator">
+        <item name="colorPrimary">@color/material_on_surface_emphasis_medium</item>
+        <item name="colorPrimaryDark">@color/design_default_color_background</item>
+        <item name="colorAccent">@color/black</item>
+    </style>
+
+    <style name="outputData" parent="Theme.GCalculator">
+        <item name="android:textSize">@dimen/button_text</item>
+        <item name="android:textColor">@drawable/edit_text_background</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:background">green</item>
+    </style>
+</resources>

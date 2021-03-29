@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_text">40sp</dimen>
+    <dimen name="margin_right">10dp</dimen>
+    <dimen name="width_0">0dp</dimen>
+    <dimen name="linear_layout_padding">16dp</dimen>
+    <dimen name="height_100">100dp</dimen>
+    <dimen name="weight_1">1</dimen>
+</resources>
